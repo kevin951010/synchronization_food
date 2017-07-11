@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout android:orientation="horizontal"  android:layout_width="fill_parent" android:layout_height="wrap_content"  android:background="@drawable/shape2">
+     <ImageButton android:gravity="center" android:id="@+id/Button15" android:background="@drawable/gg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" /> 
+     <TextView android:textSize="50.0px" android:textStyle="bold" android:id="@+id/TextView1" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1号桌" />
+    </LinearLayout>
+    
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+        <TableRow>
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+             <Button android:gravity="center" android:id="@+id/Button4" android:background="@drawable/shape2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="锅(碟)" android:height="50.0dip" />
+             <Button android:gravity="center" android:id="@+id/Button5" android:background="@drawable/shape2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="酒" android:height="50.0dip" />
+             <Button android:gravity="center" android:id="@+id/Button6" android:background="@drawable/shape2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="饮料" android:height="50.0dip" />
+             <Button android:gravity="center" android:id="@+id/Button7" android:background="@drawable/shape2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="主食" android:height="50.0dip" />
+             <Button android:gravity="center" android:id="@+id/Button8" android:background="@drawable/shape2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="串串 " android:height="50.0dip" />
+             <Button android:gravity="center" android:id="@+id/Button9" android:background="@drawable/shape5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="盘子 " android:height="50.0dip" />
+        	</LinearLayout>
+        	
+            <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+             <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+               		
+               		<TextView android:textSize="60.0px" android:textStyle="bold" android:id="@+id/Tfp" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="方盘             ¥ 12 " />
+                   	<LinearLayout android:orientation="horizontal" android:background="@drawable/shape1" android:layout_width="fill_parent" android:layout_height="wrap_content">"
+						<ImageButton android:gravity="center" android:id="@+id/bfp" android:background="@drawable/jia" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                        <TextView android:textSize="60.0px" android:id="@+id/Tfp2" android:paddingLeft="10.0dip" android:paddingTop="-5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="× 0" />
+                        <ImageButton android:gravity="center" android:id="@+id/bfp1" android:background="@drawable/jia1" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="60.0px" android:textStyle="bold" android:id="@+id/Tdtp" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="大条盘         ¥ 12 " />
+                   	<LinearLayout android:orientation="horizontal" android:background="@drawable/shape1" android:layout_width="fill_parent" android:layout_height="wrap_content">"
+						<ImageButton android:gravity="center" android:id="@+id/bdtp" android:background="@drawable/jia" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                        <TextView android:textSize="60.0px" android:id="@+id/Tdtp2" android:paddingLeft="10.0dip" android:paddingTop="-5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="× 0" />
+                        <ImageButton android:gravity="center" android:id="@+id/bdtp1" android:background="@drawable/jia1" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="60.0px" android:textStyle="bold" android:id="@+id/Txtp" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="小条盘          ¥ 5" />
+                   	<LinearLayout android:orientation="horizontal" android:background="@drawable/shape1" android:layout_width="fill_parent" android:layout_height="wrap_content">"
+						<ImageButton android:gravity="center" android:id="@+id/bxtp" android:background="@drawable/jia" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                        <TextView android:textSize="60.0px" android:id="@+id/Txtp2" android:paddingLeft="10.0dip" android:paddingTop="-20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="× 0" />
+                        <ImageButton android:gravity="center" android:id="@+id/bxtp1" android:background="@drawable/jia1" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="60.0px" android:textStyle="bold" android:id="@+id/Thbp" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="花瓣盘          ¥ 10" />
+                   	<LinearLayout android:orientation="horizontal" android:background="@drawable/shape1" android:layout_width="fill_parent" android:layout_height="wrap_content">"
+						<ImageButton android:gravity="center" android:id="@+id/bhbp" android:background="@drawable/jia" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                        <TextView android:textSize="60.0px" android:id="@+id/Thbp2" android:paddingLeft="10.0dip" android:paddingTop="-5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="× 0" />
+                        <ImageButton android:gravity="center" android:id="@+id/bhbp1" android:background="@drawable/jia1" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="60.0px" android:textStyle="bold" android:id="@+id/Tyl" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="圆篮               ¥ 5" />
+                   	<LinearLayout android:orientation="horizontal" android:background="@drawable/shape1" android:layout_width="fill_parent" android:layout_height="wrap_content">"
+						<ImageButton android:gravity="center" android:id="@+id/byl" android:background="@drawable/jia" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                        <TextView android:textSize="60.0px" android:id="@+id/Tyl2" android:paddingLeft="10.0dip" android:paddingTop="-5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="× 0" />
+                        <ImageButton android:gravity="center" android:id="@+id/byl1" android:background="@drawable/jia1" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="60.0px" android:textStyle="bold" android:id="@+id/Ths" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="花生              ¥ 5" />
+                   	<LinearLayout android:orientation="horizontal" android:background="@drawable/shape1" android:layout_width="fill_parent" android:layout_height="wrap_content">"
+						<ImageButton android:gravity="center" android:id="@+id/bhs" android:background="@drawable/jia" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                        <TextView android:textSize="60.0px" android:id="@+id/Ths2" android:paddingLeft="10.0dip" android:paddingTop="-5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="× 0" />
+                        <ImageButton android:gravity="center" android:id="@+id/bhs1" android:background="@drawable/jia1" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="60.0px" android:textStyle="bold" android:id="@+id/Tmd" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="毛豆              ¥ 5" />
+                   	<LinearLayout android:orientation="horizontal" android:background="@drawable/shape1" android:layout_width="fill_parent" android:layout_height="wrap_content">"
+						<ImageButton android:gravity="center" android:id="@+id/bmd" android:background="@drawable/jia" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                        <TextView android:textSize="60.0px" android:id="@+id/Tmd2" android:paddingLeft="10.0dip" android:paddingTop="-5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="× 0" />
+                        <ImageButton android:gravity="center" android:id="@+id/bmd1" android:background="@drawable/jia1" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-5.0dip" />
+                    </LinearLayout>
+    
+             </LinearLayout>
+            </ScrollView>
+        </TableRow>
+	</TableLayout>
+	
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/shape3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip">
+            <ImageButton android:gravity="center"  android:background="@drawable/car" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="0.0dip" />              
+     		<TextView android:textSize="70.0px" android:textColor="@color/brightyellow" android:id="@+id/TextView7" android:paddingLeft="20.0dip" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:text="¥ 0" />
+            <Button android:gravity="center" android:id="@+id/Button14" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="15.0dip" android:text="提交订单" android:height="50.0dip" />
+    </LinearLayout>
+</LinearLayout> 

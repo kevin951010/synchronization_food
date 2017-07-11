@@ -1,0 +1,201 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.synchronization_food.MainActivity" >
+
+      <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    	<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0,1">
+            <TableRow>
+                <Button android:gravity="center" android:id="@+id/Button1" android:background="@drawable/login_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="开始同步" android:height="30.0dip" />
+                <Button android:gravity="center" android:id="@+id/Button2" android:background="@drawable/shape2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="账单" android:height="30.0dip" />
+            </TableRow>
+        </TableLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" >
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    			      <Button
+           				android:id="@+id/one"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="1号桌" />
+    			      <Button
+           				android:id="@+id/two"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="2号桌" />
+    			      <Button
+           				android:id="@+id/three"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="3号桌" />
+    			      <Button
+           				android:id="@+id/four"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="4号桌" />
+    			      <Button
+           				android:id="@+id/five"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="5号桌" /> 
+     			      <Button
+           				android:id="@+id/six"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="6号桌" />
+    			      <Button
+           				android:id="@+id/seven"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="7号桌" /> 
+    			      <Button
+           				android:id="@+id/eight"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="8号桌" /> 
+     			      <Button
+           				android:id="@+id/nine"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="9号桌" />
+     			      <Button
+           				android:id="@+id/ten"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="10号桌" /> 
+    			      <Button
+           				android:id="@+id/eleven"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="11号桌" /> 
+           			  <Button
+           				android:id="@+id/twelve"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="12号桌" /> 
+        			  <Button
+           				android:id="@+id/thirteen"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="13号桌" /> 
+        			  <Button
+           				android:id="@+id/fourteen"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="14号桌" />  
+        			  <Button
+           				android:id="@+id/fifteen"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="15号桌" /> 
+       			  	  <Button
+           				android:id="@+id/sixteen"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="16号桌" /> 
+      			      <Button
+           				android:id="@+id/seventeen"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="17号桌" /> 
+       			  	   <Button
+           				android:id="@+id/eighteen"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="18号桌" />
+       			  	   <Button
+           				android:id="@+id/nineteen"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="19号桌" />
+       			  	   <Button
+           				android:id="@+id/twenty"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="20号桌" /> 
+           			   <Button
+           				android:id="@+id/twentyone"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="21号桌" /> 
+           			   <Button
+           				android:id="@+id/twentytwo"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="22号桌" />
+           			   <Button
+           				android:id="@+id/twentythree"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="23号桌" />
+           			   <Button
+           				android:id="@+id/twentyfour"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="24号桌" />
+           			   <Button
+           				android:id="@+id/twentyfive"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="25号桌" />
+           			   <Button
+           				android:id="@+id/twentysix"
+           				android:layout_width="fill_parent"
+           				android:layout_height="wrap_content"
+           				android:background="@drawable/shape"
+           				android:height="30dip"
+           				android:text="26号桌" />               			               				            				           				          				            				           				            				         				   			                				          				    			                				   			      
+    		</LinearLayout>
+     	</ScrollView>
+	  </LinearLayout>
+</RelativeLayout>

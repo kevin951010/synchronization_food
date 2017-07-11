@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0,1">
+            <TableRow>
+                <Button android:gravity="center" android:id="@+id/Button1" android:background="@drawable/shape2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="返回" android:height="30.0dip" />
+                <Button android:gravity="center" android:id="@+id/Button2" android:background="@drawable/shape2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="账单" android:height="30.0dip" />
+            </TableRow>
+        </TableLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/shape3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+            <TextView android:textSize="60.0px"  android:id="@+id/TextView7" android:paddingLeft="20.0dip" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="0.0dip" android:text="今日金额: ¥ 0" />
+        </LinearLayout>
+     <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" >
+       <LinearLayout android:orientation="vertical" android:background="@drawable/shape1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/root"> 
+        
+        
+       </LinearLayout>
+     </ScrollView> 
+      
+
+   </LinearLayout>
+</RelativeLayout>
